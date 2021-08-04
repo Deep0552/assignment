@@ -5,139 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        td, th{
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 5px;
-            border-spacing: 5px;
-        }
-        table{
-            
-            border-spacing: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2><b>HTML Form</b></h2><br><br>
-    <div>
-    <form>
-       <fieldset>
-           <legend>Personal Information</legend>
-           <label for="firstname">Firstname:</label> 
-           <input type="text" id="firstname" placeholder="First Name">
-           <label for="lastname">LastName:</label>
-           <input type="text" id="lastname" placeholder="Last Name">
-           <br><br>Male
-           <input name="gender" type="radio"  id="male">Female
-           <input name="gender" type="radio"  id="female">Other
-           <input name="gender" type="radio"  id="other"><br><br>
-           <label for="dob">Date of Birth:</label>
-           <input name="dob" type="date"  id="dob"><br><br>
-           <label for="email">Email:</label>
-           <input name="email" type="email" placeholder="E-mail"><br><br>
-           <label for="phone">Phone:</label>
-           <input type="tel" name="phone" id="phone" placeholder="+91" maxlength="10"><br><br>
-           <label for="height">Height:</label>
-           <input type="number" name="height" id="height" placeholder="Height in Feet">
-
-
-       </fieldset> 
-       <fieldset>
-           <legend>Education</legend>
-           <label for="school">School name:</label>
-           <input type="text" name="school" id="school" placeholder="School Name"><br><br>
-           <label for="class">Class:</label>
-           <input type="text" name="class" id="class" placeholder="Enter Class"><br><br>
-           <label for="stream">Stream:</label>
-            <select name="stream">
-               <option value="Arts">Arts</option>
-               <option value="Commerce">Commerce</option>
-               <option value="Non-Medical">Non-Medical</option>
-               <option value="Medical">Medical</option>
-           </select><br><br>
-           <label for="marksheet">Marksheet:</label>
-           <input type="file" name="marksheet" id="marksheet">
-       </fieldset><br>
-       <input type="button" value="Submit">
-    </form>
-    </div>
-    <div>
-        <h2><b>This is Time Table</b></h2>
-        <table style="border: 3px solid black; background-color:cyan;" >
-            <tr>
-            <th>Days/Periods</th>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th rowspan="7">B<br>R<br>E<br>A<br>K</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-        </tr>
-            <tr>
-            <th>Monday</th>
-            <td>Science</td>
-            <td>English</td>
-            <td>Hindi</td>
-            
-            <td>Maths</td>
-            <td>Games</td>
-            <td>Moral Science</td>
-        </tr>
-            <tr>
-            <th>Tuesday</th>
-            <td>Science</td>
-            <td>English</td>
-            <td rowspan="3">Hindi</td>
-            
-            <td>Maths</td>
-            <td>Games</td>
-            <td>Moral Science</td>
-        </tr>
-            <tr>
-            <th>Wednesday</th>
-            <td>Science</td>
-            <td>English</td>
-            
-            
-            <td>Maths</td>
-            <td>Games</td>
-            <td>Moral Science</td>
-        </tr>
-            <tr>
-            <th>Thursday</th>
-            <td>Science</td>
-            <td>English</td>
-            
-            
-            <td>Maths</td>
-            <td>Games</td>
-            <td>Moral Science</td>
-        </tr>
-            <tr>
-            <th>Friday</th>
-            <td>Science</td>
-            <td>English</td>
-            <td>Hindi</td>
-            
-            
-            <td>Maths</td>
-            <td>Games</td>
-            <td>Moral Science</td>
-        </tr>
-            <tr>
-            <th>Saturday</th>
-            <td>Science</td>
-            <td>English</td>
-            <td>Hindi</td>
-            
-            <td colspan="3">Maths</td>
-            </tr>
-            <tr>
-                <th colspan="8">This is Class VII</th>
-            </tr>
-        </table>
-    </div>
+   <h2><b>Phonebook</b></h2>
+   <dl>
+       <div>
+           <dt>A</dt>
+           <dd>Alexis</dd>
+           <dd>Alpine</dd>
+           <dd>Andrew flintoff</dd>
+           <dd>Aunt</dd>
+           <dd>Ayush</dd>
+       </div>
+       <div>
+           <dt>T</dt>
+           <dd>Tanish</dd>
+           <dd>Tarun</dd>
+           <dd>Teniss</dd>
+           <dd>Toronto</dd>
+           <dd>Tuntun</dd>
+       </div>
+       <div>
+           <dt>V</dt>
+           <dd>varun</dd>
+           <dd>Vimal</dd>
+           <dd>Voldermort</dd>
+           <dd>Vronika</dd>
+           <dd>Vunter</dd>
+       </div>
+       <div>
+           <dt>Y</dt>
+           <dd>Yadi</dd>
+           <dd>Yatin</dd>
+           <dd>Yuzi</dd>
+           <dd>Yuzvin</dd>
+           <dd>Yajur</dd>
+       </div>
+       <div>
+           <dt>Z</dt>
+           <dd>Zebra</dd>
+           <dd>Zodiac</dd>
+           <dd>Zondo</dd>
+           <dd>Zopir</dd>
+           <dd>Zuntu</dd>
+       </div>
+   </dl>
 </body>
 </html>
